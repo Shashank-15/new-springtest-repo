@@ -20,7 +20,7 @@
     "eject": "react-scripts eject"
   },
   
-  "proxy": "https://SpringBoot-React-Emp-App.azurewebsites.net",
+  "proxy": "https://testing-reactapp.azurewebsites.net",
   "browserslist": {
     "production": [
       ">0.2%",
