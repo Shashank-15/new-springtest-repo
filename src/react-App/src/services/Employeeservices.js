@@ -1,5 +1,5 @@
 import axios from 'axios';
-const EMPLOYEE_API_BASE_URL= "https://testing-reactapp.azurewebsites.net//api/v1/employees";
+const EMPLOYEE_API_BASE_URL= "https://testing-reactapp.azurewebsites.net/api/v1/employees";
 
 class Employeesrvices{
     getEmployees(){
