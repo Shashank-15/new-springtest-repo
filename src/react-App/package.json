@@ -19,6 +19,21 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "eslintConfig": {
+    "plugins": [
+      "es5"
+    ],"extends": [
+      "@logux/eslint-config",
+      "plugin:es5/no-es2015"
+    ],
+    "rules": {
+      "prefer-let/prefer-let": "off",
+      "prefer-arrow-callback": "off",
+      "n/global-require": "off",
+      "object-shorthand": "off",
+      "no-console": "off",
+      "no-var": "off"
+    },
 
   "proxy": "https://SpringBoot-React-Emp-App.azurewebsites.net",
   "browserslist": {
