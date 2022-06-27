@@ -19,12 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  
-   "eslintConfig": {
-    "extends": "react-app"
-  },
-  
-  "proxy": "https://testing-reactapp.azurewebsites.net",
+   "proxy": "https://testing-reactapp.azurewebsites.net",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -36,5 +31,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  
+   "eslintConfig": {
+    "extends": "react-app"
   }
 }
