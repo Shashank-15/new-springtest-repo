@@ -20,6 +20,10 @@
     "eject": "react-scripts eject"
   },
   
+   "eslintConfig": {
+    "extends": "react-app"
+  },
+  
   "proxy": "https://testing-reactapp.azurewebsites.net",
   "browserslist": {
     "production": [
