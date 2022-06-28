@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@CrossOrigin(origins = "https://SpringBoot-React-Emp-App.azurewebsites.net")
+@CrossOrigin(origins = "https://testing-reactapp.azurewebsites.net")
 @RestController
 @RequestMapping("/api/v1")
 
